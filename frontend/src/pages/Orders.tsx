@@ -55,7 +55,7 @@ const Orders = (props: Props) => {
       </div>
 
       <div>
-        {orderData.slice(1, 4).map((item, index) => (
+        {orderData.map((item, index) => (
           <div
             key={index}
             className="py-4 border-t border-b text-gray-700 flex flex-col md:flex-row md:items-center md:justify-between gap-4"
