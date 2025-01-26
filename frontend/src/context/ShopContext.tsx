@@ -66,7 +66,7 @@ const defaultContextValue: StoreShop = {
   updateQuantity: () => {},
   getCartAmount: () => 0,
   navigate: () => {},
-  backendUrl: 'http://localhost:4000',
+  backendUrl: '',
   token: '',
   setToken: () => {},
 };
